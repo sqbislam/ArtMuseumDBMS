@@ -1,0 +1,27 @@
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 11, 2018, 11:31:08 AM
+    Author     : hpavilion-au171TX
+*/
+h1{
+    background-color: maroon;
+    color : white;
+    height : 15%;
+    width:100%;
+    text-align:center;
+    padding-top: 20px;
+    font-size : 50px;
+    
+}
+h2{
+    display: inline;
+    padding : 20px;
+    background-color: black;
+   
+    
+}

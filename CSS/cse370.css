@@ -1,0 +1,327 @@
+
+@charset "UTF-8";
+
+
+header,main,body,nav,aside,section,footer{
+display: block;
+}
+html,body,h1,h2,h3,a,p,ul,li,nav,section,header,aside,footer,main{
+	padding: 0;
+	margin: 0;
+       
+}
+.banner{
+	background-color: #922B21;
+	color: white;
+	padding: 40px 30px;
+	font-size:20px;
+	text-align:center;
+	font-size:30px;                  
+}
+
+button, input[type="submit"]{
+	text-align:right;
+	position:right;
+	background-color:white;
+	font-size:16px;
+	 
+}
+
+body{
+	width:100%;
+	margin-right:auto;
+	margin-left:auto;
+	background-color:#FDEBD0;
+	font-family: Times New Roman, Times, serif;
+}
+nav{
+	background-color:#ffb380;
+	padding:5px;
+	padding-left:10px;
+	
+	height:30px;
+	text-align:left;
+         
+}
+a{
+    text-decoration: none;
+}
+
+a.ex1{
+    text-decoration: none;
+    color: black;
+    
+}
+a.ex1:hover, a.ex1:active {
+color: white;    
+}
+
+
+
+li{
+	display:inline;
+	margin-left:30px;
+	margin-right:30px;
+	font-size:20px;
+	font-weight:bold;
+	font-variant:small-caps;
+}
+
+
+/*aside{
+	background-color:#ffb380;
+	margin:10px;
+	padding:20px;
+	width:20%;
+	
+	outline-color:black;
+	outline-style: solid;
+    text-align:justify;
+	float:right;
+}*/
+main{
+	
+	margin:0px;
+}
+
+img{
+	padding: 0px;
+	height:55%;
+	width: 82%; 
+                   
+	}
+
+img.homeimg{
+            width: 83%;
+            height: 100%;
+            
+        }
+	
+section{
+	background-color:#white;
+	float:right;
+	width:15%;
+	text-align:justify;
+	
+	height:100%;
+	margin-top: 10px;
+                    margin-right: 10px;
+                    margin-bottom: 0px;
+                   display:compact;
+	
+}
+section.custom{
+	background-color:#white;
+	width:67%;
+	text-align:justify;
+	height:50%;
+	margin: 10px;
+                   display:compact;
+	
+}
+
+
+form.ex2{
+    background-color: #922B21;
+    direction: rtl;
+    padding: 2px
+    
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.loggedIn{
+    
+     background-color: #922B21;
+}
+ a.hover {
+    background-color:white;
+    text-decoration: none;
+    } 
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+        
+    }
+
+.text {
+  background-color: #800000;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.middle {
+  transition: 1s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container {
+    position: relative;
+    width: 25%;
+    
+}
+.containerexhi{
+    
+    position: relative;
+    width: 33.333%;
+}
+
+.containerexhi:hover .image {
+  opacity: 0.3;
+}
+
+.containerexhi:hover .middle {
+  opacity: 1;
+}
+
+.image {
+  opacity: 1;
+  display:block;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.search-container{
+    float: right;
+    
+}
+
+.details{
+   align-content:  flex-end;
+position:relative;
+ display: inline;
+ 
+    font-family: sans-serif;
+    font-weight: normal;
+}
+.xx{
+    display: compact;
+    width: 30%;
+}
+
+footer{
+	clear:both;
+	background-color :#922B21;
+	color:white;
+	padding: 40px;
+	height:60%;
+	text-align: right;
+}
+
+
+
+.fa{
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 5px;
+	
+}
+.fa:hover {
+    opacity: 0.5;
+}
+.fa-facebook{
+    background:#00008B;
+    color: white;
+}
+
+.fa-twitter {
+    background: #6495ED;
+    color: navy;
+}
+.fa-instagram{
+	background: #CC0033 ;
+	color: white;
+}
+.fa-google-plus{
+	background: red;
+	color:white;
+}
+.fa-search{
+    display: compact;
+    padding: 0px;
+    font-size: 20px;
+    align-content: center;
+    text-align: center;
+   width: 6px;
+    border-radius: 0%;
+   
+}
+
+aside.ending{
+color: white;
+text-align : left;
+float: left;
+
+}
+
+.exhibition{
+	height: 30%;
+	width: 97%;
+	position:center;
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+}
+h2.exhibition{
+	text-decoration:underline;
+}
+
+.zz{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	height: 40%;
+	width: 50%;
+	
+}
+
+.containerex {
+    display:compact;
+    position: relative;
+    width: 95%;
+}
+
+.icon{
+    display: compact;
+    width: 5px;
+    height: 5px;
+    
+}
+.box{
+padding: 10px;
+margin: 5px;
+    
+}
+
+
+
+
+
+
